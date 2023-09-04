@@ -161,7 +161,7 @@ bool detectcycleinDirectedGraph(vector<pair<int,int>>edges, int n){
             bool ans = isCycleDFS(i, vis, dfsvis, adj);
             if(ans)
                 return true;
-        }5
+        }
     }
     return false;
 }
